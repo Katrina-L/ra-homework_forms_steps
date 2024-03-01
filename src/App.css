@@ -1,0 +1,95 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.form-steps-results {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.steps-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.date-block, .steps-block {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 10px;
+}
+
+.date-field-name, .steps-field-name {
+    padding: 10px;
+}
+
+.date-field-input, .steps-field-quantity-input {
+    width: 240px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.input {
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btn-submit {
+    height: 50px;
+    margin: 20px 20px;
+    font-size: 16px;
+}
+
+.steps-results {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.results-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0px 10px;
+}
+
+.results-list {
+    border: 1px solid grey;
+    border-radius: 5px;    
+}
+
+.results-list-items {
+    padding: 20px 30px;
+}
+
+.btns {
+    font-size: 15px;
+    background: transparent;
+    padding: 5px;
+}
